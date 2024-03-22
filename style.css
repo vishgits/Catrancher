@@ -1,0 +1,7 @@
+.peer:checked + .label-for-checkbox  {
+  border: 2px solid #2563eb;
+}
+.peer:disabled + .label-for-checkbox  {
+  background-color: #efefef;
+  pointer-events: none;
+}
